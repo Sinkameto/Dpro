@@ -1,0 +1,10 @@
+h2 {
+	box-decoration-break: clone;	
+	-webkit-box-decoration-break: clone;
+	display: inline;
+	padding: .3em;
+	line-height: 2.5;
+	background-color: #e3bf00;
+}
+  
+  
