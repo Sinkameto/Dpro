@@ -19,3 +19,7 @@ h1 {
     margin: 0; 
     padding: 0;
 }
+.LoginText {
+  font-size: 30px;
+  padding: 1em 0.5em;/*文字の上下 左右の余白*/
+}
