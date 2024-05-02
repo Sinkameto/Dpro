@@ -7,8 +7,28 @@
 <body>
     <h1>脱獄ごっこPROチートページ</h1>
     <div class="LoginBox">
-    <p class="LoginText">脱獄ごっこPROの引継ぎコード</p>
-    <input type="text" name="ここに文字を入力"/>
+        <div class="stuff">
+            <div class="textBox">
+              <input 
+                     class="text" 
+                     type="textbox"
+                     placeholder="Email Address"
+                     onkeyup="this.setAttribute('value', this.value);"
+                     value=""/>
+              <label class="label">Email Address</label>
+              <label class="error"></label>
+            </div>
+            <div class="textBox">
+              <input 
+                     class="text" 
+                     type="password"
+                     placeholder="Password"
+                     onkeyup="this.setAttribute('value', this.value);"
+                     value=""/>
+              <label class="label">Password</label> 
+              <label class="error"></label>
+            </div>
+            </div>
     </div>
 </body>
 </html>
