@@ -1,23 +1,27 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;  
+}
+
 h1 {
 	padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
 	color: #494949;/*文字色*/
-	background: #f4f4f4;/*背景色*/
-	border-left: solid 5px #e1ff00;/*左線*/
-	border-bottom: solid 3px #d7d7d7;/*下線*/
+	border-bottom: solid 3px #74edf4;/*下線*/
   font-size: 50px;
   }
 h2 {
   background: #f4f4f4;
 	border-bottom: solid 3px #e1e1e1;/*下線*/
+  border-radius: 10px;
   }
   .LoginBox {
     padding: 0.5em 1em;
     margin: 2em 0;
     color: #000;
-    background: #f6f675;
-    border-bottom: solid 6px rgba(246, 255, 222, 0.525);
+    background: #ffffff;
+    border-bottom: solid 6px rgba(162, 162, 162, 0.525);
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
+    border-radius: 30px;
 }
 .LoginBox p {
     margin: 0; 
@@ -29,10 +33,7 @@ h2 {
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body {
-  background-color: #e5e5e5;
-  font-family: 'Roboto', sans-serif;  
-}
+
 .stuff {
   width: 25vw;
 }
@@ -55,7 +56,7 @@ body {
   bottom: 0px;
   outline: none;
   border-style: solid;
-  border-color: #E3E7EA;
+  border-color: #7fd7ff;
   border-width: 0px 0px 2px 0px;
   font-size: 20px;
   -webkit-transition: border-color 0.45s linear;
@@ -63,7 +64,7 @@ body {
 }
 
 .textBox > input.text:focus {
-  border-color: #3a3a3a;
+  border-color: #72bfcc;
 }
 
 .textBox .label {
@@ -131,8 +132,8 @@ body {
   margin: 30px 0px 0px 30px;
   position   : relative;
   text-decoration: underline;
-  color: hsl(43, 100%, 50%);
-  text-decoration-color: hsl(43, 100%, 50%);
+  color: hsl(188, 100%, 50%);
+  text-decoration-color: hsl(189, 100%, 50%);
   font-size: 20px;
 }
 .mouse:hover .word {
@@ -144,13 +145,13 @@ body {
   position   : absolute;
   display: none;
   padding: 2px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   border-radius: 5px;
-  background-color:rgb(168, 168, 168);
+  background-color:rgb(241, 241, 241);
   width:200px;
   top: 50px;
   left: 0px;
   font-size: 18px;
   text-align: left;
-  
+  border-bottom: solid 3px rgba(162, 162, 162, 0.525);
 }
